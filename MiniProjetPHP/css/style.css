@@ -1,0 +1,82 @@
+html, body
+{
+    height:100%;
+    margin:0;
+    padding:0;
+	background-color:#333333;
+}
+
+header
+{
+	position: fixed;
+	height: 50px;
+	width: 100%;
+    top: 0;
+	padding:0;
+	margin:0;
+	background-color:#212529;
+	color:black;
+	z-index:2;
+}
+footer{
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	bottom: 0;	
+	padding-top:10px;
+	margin:0;
+	background: #212529;
+	color: #888;;
+	z-index:1;
+    text-align: center;
+    vertical-align: center;
+}
+
+
+#main
+{
+	position:relative;
+	height:100%;
+    width:100%;
+    padding:70px 0 50px 0; /* Header height and footer height */
+    margin:0 auto 0 auto; /* Center content */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    box-sizing:border-box;
+	overflow:auto;
+}
+#contenu {
+    height: 100%;
+	margin:auto;
+	padding:0px;
+	text-align:center;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    box-sizing:border-box;
+	overflow:over;
+}
+
+.conteneurPerso {
+	background-color: rgba(255,255,255,0.9);
+	box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.15) inset,0 0px 10px rgba(136, 182, 235, 0.4);
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	padding:15px;
+	text-align:center;
+	border-radius:3px;
+}
+.conteneurPerso a{
+    color:#0F74BA;
+}
+.conteneurPerso h1{
+    color:#0F74BA;
+}
